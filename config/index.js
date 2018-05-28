@@ -37,11 +37,11 @@ module.exports = {
   },
 
   build: {
-    // Template for index2.html
+    // Template for index.html
     index: path.resolve(__dirname, '../index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../'),
+    assetsRoot: path.resolve(__dirname, ''),
     assetsSubDirectory: 'dist/static',
     assetsPublicPath: '/',
 
