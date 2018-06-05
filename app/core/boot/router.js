@@ -8,7 +8,7 @@ const router = new Router({
 });
 router.beforeEach ( (to, from, next) => {
 	if ((to.name === null || to.name === undefined)) {
-		next('/');
+		next('/raj/');
 	}
 	else {
 		next();

@@ -30,25 +30,27 @@ export default {
       return {
           educations: [
               {
-                  title: '',
-                  institution: '',
-                  passingYear: '',
+                  title: 'Electrical Engineering',
+                  institution: 'University College Of Engineering, RTU, Kota',
+                  passingYear: 'Graduated in June 2017(4 Years)',
                   description: 'Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales.\n' +
                   '                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit,\n' +
                   '                                quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +
                   '                                eu mollis tellus. Sed finibus aliquam neque sit amet sodales.'
               },
               {
-                  title: '',
-                  passingYear: '',
+                  title: 'High Secondary Education in Science',
+                  institution: 'S.N. Senior Secondary School, Nawalgarh, Raj',
+                  passingYear: 'June 2011 (2 Years)',
                   description: 'Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales.\n' +
                   '                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit,\n' +
                   '                                quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +
                   '                                eu mollis tellus. Sed finibus aliquam neque sit amet sodales.'
               },
               {
-                  title: '',
-                  passingYear: '',
+                  title: 'Secondary Education',
+                  institution: 'Govt. Sr. Sec. School, Bai, Nawalgarh, Raj',
+                  passingYear: 'June 2009',
                   description: 'Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales.\n' +
                   '                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit,\n' +
                   '                                quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +

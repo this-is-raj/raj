@@ -16,7 +16,7 @@
                         <h6 class="margin-t-10">{{ exp.duration }}</h6>
                         <p class="font-semi-white margin-tb-30">{{ exp.description }}</p>
                         <ul class="list margin-b-30">
-                            <li v-for="list in workList ">{{ list }}</li>
+                            <li v-for="list in workList ">{{ list.text }}</li>
                         </ul>
                     </div><!-- experience -->
                 </div><!-- col-sm-8 -->
@@ -40,9 +40,9 @@ export default {
               '                            quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +
               '                            eu mollis tellus. Sed finibus aliquam neque sit amet sodales.',
               workList: [
-                  'Duis non volutpat arcu, eu mollis tellus.',
-                  'Quis consequat nulla effi citur at.',
-                  'Sed finibus aliquam neque sit.'
+                  {text: 'Duis non volutpat arcu, eu mollis tellus.'},
+                  {text: 'Quis consequat nulla effi citur at.'},
+                  {text: 'Sed finibus aliquam neque sit.'}
               ]
           },{
               title: 'GIS Analytics Intern',
@@ -54,9 +54,9 @@ export default {
               '                            quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +
               '                            eu mollis tellus. Sed finibus aliquam neque sit amet sodales.',
               workList: [
-                  'Duis non volutpat arcu, eu mollis tellus.',
-                  'Quis consequat nulla effi citur at.',
-                  'Sed finibus aliquam neque sit.'
+                  {text: 'Duis non volutpat arcu, eu mollis tellus.'},
+                  {text: 'Quis consequat nulla effi citur at.'},
+                  {text: 'Sed finibus aliquam neque sit.'}
               ]
           },{
               title: 'Design Assistence Intern',
@@ -68,9 +68,9 @@ export default {
               '                            quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,\n' +
               '                            eu mollis tellus. Sed finibus aliquam neque sit amet sodales.',
               workList: [
-                  'Duis non volutpat arcu, eu mollis tellus.',
-                  'Quis consequat nulla effi citur at.',
-                  'Sed finibus aliquam neque sit.'
+                  {text: 'Duis non volutpat arcu, eu mollis tellus.'},
+                  {text: 'Quis consequat nulla effi citur at.'},
+                  {text: 'Sed finibus aliquam neque sit.'}
               ]
           },]
       };
