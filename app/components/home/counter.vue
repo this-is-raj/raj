@@ -30,7 +30,6 @@
                         <h5 class="desc"><b>Finished Projects</b></h5>
                     </div><!-- margin-b-30 -->
                 </div><!-- col-md-3-->
-
             </div><!-- row-->
         </div><!-- container-->
     </section><!-- counter-section-->

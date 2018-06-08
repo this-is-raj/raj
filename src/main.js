@@ -6,11 +6,11 @@ import functions from './../app/scripts/functions';
 import App from './App';
 // import Vue2Filters from 'vue2-filters';
 
- // Vue.use(Vue2Filters);
+// Vue.use(Vue2Filters);
 /* eslint-disable no-new */
 new Vue({
 	el: '#app',
-    store,
+	store,
 	router,
 	components: { App },
 	template: '<App/>',

@@ -5,4 +5,4 @@ require('./libraries');
 
 require('../../scripts/action');
 
-export { Vue, router}
+export { Vue, router};
