@@ -35,7 +35,7 @@
                 </div><!-- row -->
             </div><!-- heading-wrapper -->
 
-            <a class="downlad-btn" :href="cvDownloadLink">Download CV</a>
+            <a class="downlad-btn" :href="cvDownloadLink" download>Download CV</a>
         </div><!-- container -->
     </header>
 </template>
@@ -55,7 +55,7 @@ export default {
           },
           phone: {no: '+91-8769938925', available: 'MON - SUN,8AM - 11PM'},
           email: {address: 'rajkjjn@gmail.com', replyPeriod: 'REPLY IN 24 HOURS'},
-          cvDownloadLink: '#'
+          cvDownloadLink: 'static/CV/Raj_Kumar_CV.pdf'
       };
   }
 }

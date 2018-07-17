@@ -9,7 +9,7 @@
                     </div>
                 </div><!-- col-sm-4 -->
                 <div class="col-sm-8">
-                    <p class="margin-b-50">{{ aboutMe }}</p>
+                    <p class="margin-b-50" v-html="aboutMe"></p>
 
                     <div class="row">
                         <div v-for="skill in skills" class="col-sm-6 col-md-6 col-lg-3">
@@ -36,14 +36,7 @@
 export default {
   data () {
       return {
-          aboutMe: 'Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque\n' +
-          ' sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n' +
-          ' Nulla maximus pellentes que velit, quis consequat nulla effi citur at.\n' +
-          ' Maecenas sed massa tristique.Duis non volutpat arcu, eu mollis tellus.\n' +
-          ' Sed finibus aliquam neque sit amet sodales. Lorem ipsum dolor sit amet,\n' +
-          ' consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur\n' +
-          ' adipiscing elit. Nulla maximus pellentes que velit, quis consequat nulla\n' +
-          ' effi citur at.Maecenas sed massa tristique.',
+          aboutMe: 'On the one end I am a professional <strong>PHP developer</strong> (Mainly working with Laravel and VueJS framework) and on the other end I am a <strong>Machine Learning</strong> Enthusiast having completed many challenging project with languages like <strong>Python</strong> and <strong>MATLAB</strong>, Now I am looking for some job opportunity which can fulfill my hunger to work with some challenging and exciting stuff in collaboration of above two fields.',
           skills: [{
               name: 'Web Designing',
               percentage: 97
